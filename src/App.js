@@ -1,12 +1,12 @@
 import React from "react";
-// import { JumbotronContainer } from "./containers/jumbotron-container.component";
 import Jumbotron from "./components/jumbotron/jumbotron.component";
+import Footer from "./components/footer/footer.component";
 
 function App() {
   return (
     <div>
       <Jumbotron></Jumbotron>
-      {/* <JumbotronContainer></JumbotronContainer> */}
+      <Footer></Footer>
     </div>
   );
 }
