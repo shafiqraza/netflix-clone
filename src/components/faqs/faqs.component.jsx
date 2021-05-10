@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import faqs from "../../fixtures/faqs.json";
+import OptForm from "../opt-form/opt-form.component";
 
 import {
   Container,
@@ -48,6 +49,8 @@ const Faqs = () => {
             </Item>
           ))}
         </Frame>
+
+        <OptForm />
       </Inner>
     </Container>
   );
