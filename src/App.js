@@ -1,15 +1,16 @@
 import React from "react";
-import Jumbotron from "./components/jumbotron/jumbotron.component";
-import Faqs from "./components/faqs/faqs.component";
-import Footer from "./components/footer/footer.component";
+
+import {BrowserRouter, Route, Switch} from "react-router-dom";
+
+import Home from "./pages/home/home.component";
 
 function App() {
   return (
-    <div>
-      <Jumbotron />
-      <Faqs />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home}/>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
