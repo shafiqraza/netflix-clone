@@ -3,7 +3,7 @@ import styled from "styled-components/macro";
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-  height: 100%;
+  // height: 100%;
   margin-top: 20px;
   flex-wrap: wrap;
 
@@ -32,6 +32,7 @@ export const Input = styled.input`
   height: 60px;
   box-sizing: border-box;
   outline: none;
+  border-radius: 2px;
 `;
 
 export const Button = styled.button`
@@ -44,6 +45,8 @@ export const Button = styled.button`
   font-size: 26px;
   border: 0;
   cursor: pointer;
+  border-radius: 2px;
+  margin-left: 2px;
 
   span {
     margin-left: 10px;
@@ -64,5 +67,6 @@ export const Button = styled.button`
     font-size: 16px;
     margin-top: 20px;
     font-weight: bold;
+    margin-left: 0;
   }
 `;
