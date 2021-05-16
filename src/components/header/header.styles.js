@@ -39,6 +39,7 @@ export const Background = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  border-bottom: 8px solid #222;
 `;
 
 
